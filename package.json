@@ -1,6 +1,6 @@
 {
   "name": "@wearepsh/inlineform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate a custom contact form that post the data to your API endpoint.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wearepsh/inlineform.git"
+    "url": "git+https://github.com/wearepsh/inline-form.git"
   },
   "keywords": [
     "form",
@@ -18,9 +18,9 @@
   "author": "martinszajt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wearepsh/inlineform/issues"
+    "url": "https://github.com/wearepsh/inline-form/issues"
   },
-  "homepage": "https://github.com/wearepsh/inlineform#readme",
+  "homepage": "https://github.com/wearepsh/inline-form#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "semantic-ui-css": "^2.4.1",

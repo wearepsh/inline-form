@@ -212,8 +212,6 @@ export const InlineForm = (props: IProps) => {
     }
   }
 
-  
-
   return (
       <Form style={{
         display: 'grid',
