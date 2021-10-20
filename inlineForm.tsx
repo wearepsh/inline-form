@@ -206,7 +206,7 @@ export const InlineForm = (props: IProps) => {
       case 'switch':
         return <Checkbox label={field.label} toggle checked={values[i]} onChange={(e) => updateValue(!values[i], i)} />;
       case 'dropdown':
-        return <Dropdown placeholder='Dropdown' fluid selection options={field.options} onChange={(e, { value }) => updateValue(value.toString(), i)}/>
+        return <Dropdown placeholder={field.placeHolder} fluid selection options={field.options} onChange={(e, { value }) => updateValue(value.toString(), i)}/>
       default:
         return <TextField options={field.gridOptions} getInputHeight={(rows) => getInputHeight(rows)} placeholder={field.placeHolder} value={values[i]} onChange={(e) => updateValue(e.target.value, i)} />;
     }
